@@ -1,0 +1,70 @@
+/* META BOX */
+.row-icon {
+	width: 18px;
+}
+
+.row-title {
+	width: 150px;
+	font-weight: bold;
+}
+
+.row-field {
+	width: 100%;
+	height: auto;
+}
+
+.link-icon {
+	width: 16px;
+	height: 16px;
+}
+
+input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bcbcbc;
+}
+input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+  color: #bcbcbc;
+}
+input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+  color: #bcbcbc;
+}
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #bcbcbc;
+}
+
+/* APP VIEW */
+.app {
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	margin-bottom: 8px;
+	clear: both;
+}
+
+.app-field {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;	
+}
+
+.app-icon {
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+
+.download-badge {
+	display:inline-block;
+	overflow:hidden;
+	width:135px;
+	height:40px;
+	padding: 4px;
+}
+
+.ios-style {
+	border: 1px solid #d4d4d4;
+	border-radius: 22%;
+	
+}
